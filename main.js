@@ -25,14 +25,12 @@ var cards = [
 var cardsInPlay = [];
 
 var checkForMatch = function () {
-
-
-
 	if (cardsInPlay.length === 2 && cardsInPlay[0] === cardsInPlay[1]) {
 		alert("You found a match!");
-	}else if (cardsInPlay.length === 2 && cardsInPlay[0] !== cardsInPlay[1]) 
-		{ alert("Sorry, try again.");
+	} else if (cardsInPlay.length === 2 && cardsInPlay[0] !== cardsInPlay[1]) {
+		 alert("Sorry, please try again.");
 	}
+	
 } 
 
 var flipCard = function () {
